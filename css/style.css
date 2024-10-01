@@ -1,3 +1,5 @@
+/*general*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +10,14 @@ body{
     background-color: rgb(246, 248, 249);
 }
 
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*titoli*/
+
 h1{
     display: inline-block;
     vertical-align: middle;
@@ -16,6 +26,12 @@ h1{
 h2{
     display: inline-block;
     margin-top: 30px;
+}
+
+h4{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .arrow{
@@ -36,6 +52,8 @@ h2{
     margin: auto;
     border-bottom: 1px solid rgb(246, 248, 249) ;
 }
+
+/*buttons*/
 
 .container-button button{
     height: 30px;
@@ -64,12 +82,6 @@ ul{
     list-style: none;
     margin-top: 10px;
     margin-left: 30px;
-}
-
-h4{
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 20px;
 }
 
 .spunta{
@@ -117,5 +129,19 @@ h4{
     padding: 5px;
     border-radius: 30%;
     background-color: rgb(242, 158, 51);
+    color: white;
+}
+
+.website{
+    padding: 5px;
+    border-radius: 30%;
+    background-color: rgb(216, 99, 161);
+    color: white;
+}
+
+.sales{
+    padding: 5px;
+    border-radius: 30%;
+    background-color: rgb(176, 201, 38);
     color: white;
 }

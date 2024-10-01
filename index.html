@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,57 +14,80 @@
     <header>
         <div class="container-top">
             <img class="logo" src="img/Logo.png" alt="logo">
-            <h1>Toboolist</h1>
+            <h1 class="poppins-regular">Toboolist</h1>
         </div>
     </header>
     <!--qui finisce l'header-->
 
     <!--qui inizia il main-->
     <main>
-        <div class="container-button">
-            
-            <button class="first-button">Add Task</button>
-            <button class="second-button">Add Section</button>
+        <div class="container-button">     
+            <button class="first-button poppins-regular">Add Task</button>
+            <button class="second-button poppins-regular">Add Section</button>
         </div>
-
+        <!--qui iniziano le ul-->
         <div class="container">
             <span class="arrow">&#9660;</span>
-            <h2> New Task</h2>
+            <h2 class="poppins-regular"> New Task</h2>
             <ul>
                 <li> 
                     <div class="spunta">&#10003;</div>
-                    <h4>Quarterly Newsletter</h4>
-                    <button class="editorial">Editorial</button>
+                    <h4 class="poppins-regular">Quarterly Newsletter</h4>
+                    <button class="editorial poppins-regular">Editorial</button>
                 </li>
             </ul>
 
             <span class="arrow">&#9660;</span>
-            <h2> Today</h2>
+            <h2 class="poppins-regular"> Today</h2>
             <ul>
                 <li>
                     <div class="spunta">&#10003;</div>
-                    <h4>Recruiting blog post</h4>
-                    <button class="editorial">Editorial</button>
+                    <h4 class="poppins-regular">Recruiting blog post</h4>
+                    <button class="editorial poppins-regular">Editorial</button>
                 </li>
                 <li>
                     <div class="spunta">&#10003;</div>
-                    <h4>Mobile app launch</h4>
-                    <button class="q1-goals">Q1 goals</button>
+                    <h4 class="poppins-regular">Mobile app launch</h4>
+                    <button class="q1-goals poppins-regular">Q1 goals</button>
                 </li>
                 <li>
                     <div class="cross">&cross;</div>
-                    <h4>Interview John H.</h4>
-                    <button class="recruiting">Recruiting</button>
+                    <h4 class="poppins-regular">Interview John H.</h4>
+                    <button class="recruiting poppins-regular">Recruiting</button>
                 </li>
                 <li>
                     <div class="spunta">&#10003;</div>
-                    <h4>Summit update to mobile storefronts</h4>
-                    <button class="mobile">Mobile</button>
+                    <h4 class="poppins-regular">Summit update to mobile storefronts</h4>
+                    <button class="mobile poppins-regular">Mobile</button>
+                </li>
+            </ul>
+
+            <span class="arrow">&#9660;</span>
+            <h2 class="poppins-regular"> Upcoming</h2>
+            <ul>
+                <li>
+                    <div class="cross">&cross;</div>
+                    <h4 class="poppins-regular">Schedule meeting with Alex</h4>
+                </li>
+                <li>
+                    <div class="spunta">&#10003;</div>
+                    <h4 class="poppins-regular">Homepage refresh</h4>
+                    <button class="website poppins-regular">Website</button>
+                </li>
+                <li>
+                    <div class="spunta">&#10003;</div>
+                    <h4 class="poppins-regular">Onboard new Sales team members</h4>
+                    <button class="sales poppins-regular">Sales</button>
+                </li>
+                <li>
+                    <div class="spunta">&#10003;</div>
+                    <h4 class="poppins-regular">Review editorial calendar</h4>
+                    <button class="editorial poppins-regular">Editorial</button>
                 </li>
             </ul>
         </div>
-    </main>
-    
+        <!--qui finisconono le ul-->
+    </main>   
     <!--qui finisce il main-->  
 </body>
 </html>
